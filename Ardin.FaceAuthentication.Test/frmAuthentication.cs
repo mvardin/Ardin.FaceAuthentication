@@ -14,7 +14,7 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using Image = FaceRecognitionDotNet.Image;
 
-namespace FaceAuthentication
+namespace Ardin.FaceAuthentication.Test
 {
     public partial class frmAuthentication : Form
     {

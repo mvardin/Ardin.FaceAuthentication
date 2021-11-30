@@ -10,7 +10,7 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using Image = FaceRecognitionDotNet.Image;
 
-namespace AriaFacialAuthentication
+namespace Ardin.FaceAuthentication
 {
     public partial class frmMain : Form
     {
@@ -85,7 +85,7 @@ namespace AriaFacialAuthentication
                         #endregion
 
                         //TODO Ardin
-                        //currentFrame = FaceRecognition.LoadImageFile(@"C:\temp\AriaFacialAuthentication\bin\Debug\net5.0-windows\Faces\sample.jpg");
+                        //currentFrame = FaceRecognition.LoadImageFile(@"C:\temp\Ardin.FaceAuthentication\bin\Debug\net5.0-windows\Faces\sample.jpg");
 
                         Location[] faceLocations = _faceRecognition.FaceLocations(currentFrame, 0).ToArray();
 

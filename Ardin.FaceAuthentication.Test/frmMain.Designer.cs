@@ -1,5 +1,5 @@
 ﻿
-namespace FaceAuthentication
+namespace Ardin.FaceAuthentication.Test
 {
     partial class frmMain
     {
